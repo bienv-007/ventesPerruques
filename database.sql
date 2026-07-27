@@ -86,9 +86,9 @@ CREATE TABLE IF NOT EXISTS details_commande (
 -- Donnees de test
 -- ============================================
 
--- Admin par defaut (mot de passe: admin123)
+-- Admin par defaut (mot de passe: 12345)
 INSERT INTO utilisateurs (nom, prenom, email, mot_de_passe, role) VALUES
-('Admin', 'Super', 'admin@perruques.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
+('Admin', 'Super', 'admin@perr.com', '$2y$10$5k/5O2i1RxOF8v6FvIloS.IUQeqgLlihLRnn61lcvRj74tvQqcJyW', 'admin');
 
 -- Categories
 INSERT INTO categories (nom, description) VALUES
